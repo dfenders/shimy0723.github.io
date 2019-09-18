@@ -1,0 +1,90 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+#header
+{
+    
+}
+
+#logo-bar, #nav-bar
+{
+    border-bottom: 1px solid grey;
+}
+
+#logo-bar h1, #nav-bar ul
+{
+    margin: 0 auto;
+    width: 80%;
+}
+#logo
+{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    padding: 20px 0;
+}
+#nav-bar a
+{
+    text-decoration: none;
+    color: black;
+}
+#nav-bar a, #nav-bar span
+{
+    padding: 5px 0;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: bold;
+    width: 120px;
+    font-size: 0.8em;
+}
+#nav-bar a:hover, #nav-bar span:hover
+{
+    border-bottom: 3px solid red;
+    padding: 5px 0 2px 0;
+    background-color: #efefef ;
+}
+#nav-bar > ul
+{
+    list-style: none;
+    list-style-position: inside; 
+    overflow: hidden;
+    padding-inline-start: 0;
+    height: 30px;
+}
+#nav-bar > ul > li
+{
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#dropdown-button:hover #dropdown-menu
+{
+    display: block;
+}
+#dropdown-menu
+{
+    display: none;
+    border: 1px solid grey;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    width: 120px !important;
+    list-style: none;
+    list-style-position: inside; 
+    padding-inline-start: 0;
+}
+#dropdown-menu li
+{
+    padding: 0;
+    margin: 0;
+}
+#content 
+{
+    margin: 0 auto;
+    width: 70%;
+}
+#items, #pages
+{
+    display: none;
+}
