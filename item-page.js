@@ -52,7 +52,7 @@ function addTableItem (item)
     name.textContent=item.name;
     name.href="#"+getAnchorName(item.name);
     nameCol.appendChild(name);
-    summaryCol.textContent=items.summary;
+    summaryCol.textContent=item.summary;
     var amazon =document.createElement("a");
     amazon.href=item.amazon_link;
     amazon.textContent="Amazon";
