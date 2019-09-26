@@ -1,7 +1,7 @@
 [
     {
         "name":"Martin D-16RGT", 
-        "image":"/images/acoustic/Martin-D-16RGT.jpg",
+        "image":"images/acoustic/Martin-D-16RGT.jpg",
         "summary": "A popular solid-wood Martin with a premium feel.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -13,7 +13,7 @@
     },
     {
         "name":"Takamine EF360S-TT", 
-        "image":"/images/acoustic/Takamine-EF360S-TT.jpg",
+        "image":"images/acoustic/Takamine-EF360S-TT.jpg",
         "summary": "A vintage masterpiece from Takamine!",
         "amazon_link":"",
         "overall_rating": 0,
@@ -25,7 +25,7 @@
     },
     {
         "name":"Breedlove Oregon Concert CE", 
-        "image":"/images/acoustic/Breedlove-Oregon-Concert.jpg",
+        "image":"images/acoustic/Breedlove-Oregon-Concert.jpg",
         "summary": "Tight and bright in both looks and sound!",
         "amazon_link":"",
         "overall_rating": 0,
@@ -37,7 +37,7 @@
     },
     {
         "name":"Taylor 314ce", 
-        "image":"/images/acoustic/Taylor-Guitars-314ce.jpg",
+        "image":"images/acoustic/Taylor-Guitars-314ce.jpg",
         "summary": "An impressive all-American, all-solid wood electro-acoustic from Taylor.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -49,7 +49,7 @@
     },
     {
         "name":"Taylor 200 Series Deluxe 224ce-K", 
-        "image":"/images/acoustic/Taylor-200-Series.jpg",
+        "image":"images/acoustic/Taylor-200-Series.jpg",
         "summary": "A high-end all-koa model from Taylor’s 200 Series Deluxe.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -61,7 +61,7 @@
     },
     {
         "name":"RainSong Hybrid Series H-WS1000N2", 
-        "image":"/images/acoustic/RainSong-Hybrid-Series.jpg",
+        "image":"images/acoustic/RainSong-Hybrid-Series.jpg",
         "summary": "An impressive high-end electro-acoustic made entirely from carbon fiber.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -73,7 +73,7 @@
     },
     {
         "name":"Takamine TH5C", 
-        "image":"/images/acoustic/Takamine-TH5C.jpg",
+        "image":"images/acoustic/Takamine-TH5C.jpg",
         "summary": "An excellent classical guitar with superior electronics.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -85,7 +85,7 @@
     },
     {
         "name":"Cordoba Solista CD/IN", 
-        "image":"/images/acoustic/Cordoba-Solista-CD-IN.jpg",
+        "image":"images/acoustic/Cordoba-Solista-CD-IN.jpg",
         "summary": "A beautiful premium classical performer from the Spanish masters.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -97,7 +97,7 @@
     },
     {
         "name":"Cordoba 55FCE Thinbody Limited", 
-        "image":"/images/acoustic/Cordoba-55FCE-Thinbody.jpg",
+        "image":"images/acoustic/Cordoba-55FCE-Thinbody.jpg",
         "summary": "A high-end flamenco guitar from Cordoba, as favored by the Gipsy Kings.",
         "amazon_link":"",
         "overall_rating": 0,
@@ -109,7 +109,7 @@
     },
     {
         "name":"Godin Multiac Grand Concert Duet Ambiance", 
-        "image":"/images/acoustic/Godin-Multiac-Grand-Concert.jpg",
+        "image":"images/acoustic/Godin-Multiac-Grand-Concert.jpg",
         "summary": "Certainly non-traditional, but Godin impress with an attractive and versatile electro-acoustic.",
         "amazon_link":"",
         "overall_rating": 0,
