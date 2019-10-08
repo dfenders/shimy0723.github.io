@@ -7,6 +7,7 @@
   <title>Contact - Best Guitars</title>
 
   <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="contact-page.js"></script>
 
 </head>
 
@@ -16,6 +17,9 @@
                     <h1 id="logo">
                        Best Guitars
                     </h1>
+                    <span class="guitarbg1"></span>
+        <span class="guitarbg2"></span>
+        <span class="guitarbg3"></span>
                 </div>
                 <div id="nav-bar">
                     <ul>
@@ -38,6 +42,33 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div id="content">
+                <h1>Contact Us</h1>
+                <form id="contact-form">
+                    <h2>Send us a Message</h2>
+                    <div class="contact-full">
+                        <label for="contact-text">Message</label>
+                        <textarea id="contact-text" name="contact-text"></textarea>
+                    </div>
+                    <table class="contact-full">
+                        <tr>
+                            <td class="contact-col">
+                                    <label for="contact-name">Name: *</label>
+                                    <input type="text" id="contact-name" name="contact-name">
+                            </td>
+                            <td class="contact-col">
+                                    <label for="contact-email">Email: *</label>
+                                    <input type="text" id="contact-email" name="contact-email">
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="contact-full">
+                            <label for="contact-website">Website:</label>
+                            <input type="text" id="contact-website" name="contact-website">
+                    </div>
+                    <input type="submit" class="contact-button" value="Send Message">
+                </form>
             </div>
 </body>
 </html>

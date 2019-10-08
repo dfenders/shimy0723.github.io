@@ -16,6 +16,9 @@
         <h1 id="logo">
         Best Guitars
         </h1>
+        <span class="guitarbg1"></span>
+        <span class="guitarbg2"></span>
+        <span class="guitarbg3"></span>
     </div>
     <div id="nav-bar">
         <ul>
@@ -54,6 +57,41 @@
     </div>
     <div id="loading">
         The page is loading..... please wait.
+    </div>
+    <div id="comment-section">
+        <h2>Comments</h2>
+        <div id="comments">
+            <div id="placeholder-comment">
+                There are no comments for this section yet.
+            </div>
+        </div>
+        <form id="comment-form">
+            <h2>Leave A Comment</h2>
+            <div class="comment-full">
+                <label for="comment-text">Comment</label>
+                <textarea id="comment-text" name="comment-text"></textarea>
+            </div>
+            <table class="comment-full">
+                <tr>
+                    <td class="comment-col">
+                            <label for="comment-name">Name: *</label>
+                            <input type="text" id="comment-name" name="comment-name">
+                    </td>
+                    <td class="comment-col">
+                            <label for="comment-email">Email: *</label>
+                            <input type="text" id="comment-email" name="comment-email">
+                    </td>
+                </tr>
+            </table>
+            <div class="comment-full">
+                    <label for="comment-website">Website:</label>
+                    <input type="text" id="comment-website" name="comment-website">
+            </div>
+
+            <label for="comment-save-details"><input type="checkbox" id="comment-save-details" name="comment-save-details"> Save my name, email and website in this browser for the next time I comment.</label>
+
+            <input type="submit" class="comment-button" value="Post Comment">
+        </form>
     </div>
     </div>
 

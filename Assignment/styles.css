@@ -12,8 +12,27 @@ body
 {
     border-bottom: 1px solid grey;
 }
-
-#logo-bar h1, #nav-bar ul
+#logo-bar{
+    height: 90px;
+}
+.guitarbg1, .guitarbg2, .guitarbg3{
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 90px;
+    display: inline-block;
+    background-position: 25% 50%;
+}
+.guitarbg1{
+    background-image: url("images/acoustic/Martin-D-16RGT.jpg");
+    margin-left: 30%;
+}
+.guitarbg2{
+    background-image: url("images/electric/Fender-James-Burton-Tele.jpg");
+}
+.guitarbg3{
+    background-image: url("images/electric/Guild-Starfire-V.jpg");
+}
+#logo, #nav-bar ul
 {
     margin: 0 auto;
     width: 80%;
@@ -21,8 +40,17 @@ body
 #logo
 {
     text-transform: uppercase;
-    font-size: 1.8em;
-    padding: 20px 0;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 30px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bolder;
+    font-kerning: auto;
+    letter-spacing: -2px;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
 }
 #nav-bar a
 {
@@ -31,17 +59,19 @@ body
 }
 #nav-bar a, #nav-bar span
 {
-    padding: 5px 0;
+    padding: 10px 0;
     display: inline-block;
     line-height: 20px;
     font-weight: bold;
     width: 120px;
     font-size: 0.8em;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 #nav-bar a:hover, #nav-bar span:hover
 {
-    border-bottom: 3px solid red;
-    padding: 5px 0 2px 0;
+    border-bottom: 3px solid #c61f26;
+    padding: 10px 0 7px 0;
     background-color: #efefef ;
 }
 #nav-bar > ul
@@ -50,13 +80,17 @@ body
     list-style-position: inside; 
     overflow: hidden;
     padding-inline-start: 0;
-    height: 30px;
+    height: 40px;
 }
 #nav-bar > ul > li
 {
     float: left;
     width: 120px;
     text-align: center;
+}
+#dropdown-menu li a{
+    border-left: 0;
+    border-right: 0;
 }
 #dropdown-button:hover #dropdown-menu
 {
@@ -87,4 +121,150 @@ body
 #items, #pages
 {
     display: none;
+}
+#items{
+    border-collapse: collapse;
+    width: 100%;
+}
+#items td{
+    vertical-align: top;
+    padding: 10px 20px 10px 0px;
+    border-bottom: 1px solid #DDDDDD;
+}
+#items th{
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1px solid #999999;
+}
+#items a{
+    color: black;
+    font-weight: bold;
+}
+#items .thumbnail{
+    width: 150px;
+    height: 150px;
+}
+.rating-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.rating-bar{
+    display: inline-block;
+    margin: 8px 3px;
+    width: 74px;
+    height: 20px;
+    background-image: url("images/rating-grey.gif");
+    text-align: left!important;
+}
+.rating-active {
+    display: inline-block;
+    width: 0%;
+    height: 20px;
+    background-image: url("images/rating-red.gif");
+    pointer-events: none;
+}
+#pages{
+    width: 80%;
+    margin: 0 auto;
+}
+#pages .page-col{
+    display: inline-grid;
+    width:47.5%;
+    height: 300px;
+    justify-items: center;
+    vertical-align: top;
+}
+#pages .page{
+    border: 1px solid #CCCCCC;
+    padding: 40px;
+    margin: 20px 0;
+}
+.page h2{
+    margin: 0 0 20px 0;
+}
+.page .rating-block{
+    width: 300px;
+}
+.page .description{
+    font-size: 1.3em;
+    margin-top: 40px;
+}
+a.price-check{
+    border: 1px solid #c61f26;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    color: #c61f26!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.page a.price-check{
+    padding: 10px;
+    font-size: 1.2em;
+}
+a.price-check:hover{
+    background-color: #c61f26;
+    color: white!important;
+}
+.page .rating-col{
+    text-align: right;
+}
+#comment-section{
+    border: 2px solid #CCCCCC;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#comment-section h2{
+    margin-top: 0;
+}
+#comment-form{
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+}
+#comment-form label,
+#contact-form label{
+    display: block;
+    line-height: 2.4em;
+    font-size: 0.8em;
+}
+#comment-form table,
+#contact-form table{
+    padding: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+#comment-form .comment-full input[type=text],
+#contact-form .contact-full input[type=text]{
+    width: 97.5%;
+    padding: 4px;
+    display:block;
+}
+#comment-form .comment-col input[type=text],
+#contact-form .contact-col input[type=text]{
+    padding: 4px;
+    display:block;
+    width: 95%;
+}
+#comment-form textarea,
+#contact-form textarea {
+    width: 97.5%;
+    height: 200px;
+}
+#comment-form .comment-button,
+#contact-form .contact-button{
+    margin-top: 10px;
+    border: 1px solid #c61f26;
+    padding: 6px 18px;
+    color: #c61f26;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: white;
+}
+#comment-form .comment-button:hover,
+#contact-form .contact-button:hover{
+    background-color: #c61f26;
+    color: white;
 }
