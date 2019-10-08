@@ -17,10 +17,10 @@
         "summary": "A vintage masterpiece from Takamine!",
         "amazon_link":"https://www.amazon.com/Takamine-EF360S-TT-Thermal-Acoustic-Electric/dp/B01AYFA06Y?tag=guitarfella0a-20",
         "overall_rating": 4.78,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "body_rating": 4.9,
+        "hardware_rating": 4.8,
+        "sound_rating": 4.95,
+        "value_rating": 4.7,
         "description": ""
     },
     {
@@ -29,10 +29,10 @@
         "summary": "Tight and bright in both looks and sound!",
         "amazon_link":"https://www.amazon.com/Breedlove-Oregon-Concert-Sitka-Spruce/dp/B01MTFVZTL?tag=guitarfella0a-20",
         "overall_rating": 4.75,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "body_rating": 4.95,
+        "hardware_rating": 4.7,
+        "sound_rating": 4.7,
+        "value_rating": 4.7,
         "description": ""
     },
     {
@@ -41,10 +41,10 @@
         "summary": "An impressive all-American, all-solid wood electro-acoustic from Taylor.",
         "amazon_link":"https://www.amazon.com/Taylor-314ce-Sapele-V-class-Bracing/dp/B07F7P4L9K?tag=guitarfella0a-20",
         "overall_rating": 4.72,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "body_rating": 4.8,
+        "hardware_rating": 4.7,
+        "sound_rating": 4.7,
+        "value_rating": 4.7,
         "description": ""
     },
     {
@@ -53,10 +53,10 @@
         "summary": "A high-end all-koa model from Taylor’s 200 Series Deluxe.",
         "amazon_link":"https://www.amazon.com/Taylor-224ce-Deluxe-Grand-Auditorium/dp/B01MQCFTE0?tag=guitarfella0a-20",
         "overall_rating": 4.77,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "body_rating": 4.97,
+        "hardware_rating": 4.93,
+        "sound_rating": 4.5,
+        "value_rating": 4.8,
         "description": ""
     },
     {
@@ -65,10 +65,10 @@
         "summary": "An impressive high-end electro-acoustic made entirely from carbon fiber.",
         "amazon_link":"https://www.amazon.com/RainSong-H-WS1000N2-cutaway-acoustic-electric/dp/B0035WTLWI?tag=guitarfella0a-20",
         "overall_rating": 4.70,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "body_rating": 4.95,
+        "hardware_rating": 4.97,
+        "sound_rating": 4.2,
+        "value_rating": 4.8,
         "description": ""
     },
     {
@@ -76,11 +76,11 @@
         "image":"images/acoustic/Takamine-TH5C.jpg",
         "summary": "An excellent classical guitar with superior electronics.",
         "amazon_link":"https://www.amazon.com/Takamine-TH5C-Classical-String-Acoustic/dp/B01CF0WAR8?tag=guitarfella0a-20",
-        "overall_rating": 0,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "overall_rating": 4.77,
+        "body_rating": 4.95,
+        "hardware_rating": 4.98,
+        "sound_rating": 4.8,
+        "value_rating": 4.8,
         "description": ""
     },
     {
@@ -88,11 +88,11 @@
         "image":"images/acoustic/Cordoba-Solista-CD-IN.jpg",
         "summary": "A beautiful premium classical performer from the Spanish masters.",
         "amazon_link":"https://www.amazon.com/Cordoba-Solista-CD-Acoustic-Classical/dp/B001G7BYEW?tag=guitarfella0a-20",
-        "overall_rating": 0,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "overall_rating": 4.83,
+        "body_rating": 4.98,
+        "hardware_rating": 4.98,
+        "sound_rating": 4.98,
+        "value_rating": 4.98,
         "description": ""
     },
     {
@@ -100,11 +100,11 @@
         "image":"images/acoustic/Cordoba-55FCE-Thinbody.jpg",
         "summary": "A high-end flamenco guitar from Cordoba, as favored by the Gipsy Kings.",
         "amazon_link":"https://www.amazon.com/Cordoba-55FCE-Negra-Limited-Acoustic-Electric/dp/B00JST5CRA?tag=guitarfella0a-20",
-        "overall_rating": 0,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "overall_rating": 4.80,
+        "body_rating": 4.95,
+        "hardware_rating": 4.8,
+        "sound_rating": 4.9,
+        "value_rating": 4.95,
         "description": ""
     },
     {
@@ -112,11 +112,11 @@
         "image":"images/acoustic/Godin-Multiac-Grand-Concert.jpg",
         "summary": "Certainly non-traditional, but Godin impress with an attractive and versatile electro-acoustic.",
         "amazon_link":"https://www.amazon.com/Godin-031498-Concert-Multiac-Ambiance/dp/B001QCXSIM?tag=guitarfella0a-20",
-        "overall_rating": 0,
-        "body_rating": 0,
-        "hardware_rating": 0,
-        "sound_rating": 0,
-        "value_rating": 0,
+        "overall_rating": 4.80,
+        "body_rating": 4.9,
+        "hardware_rating": 4.8,
+        "sound_rating": 4.9,
+        "value_rating": 4.9,
         "description": ""
     }
 ]
