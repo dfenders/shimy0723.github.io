@@ -69,7 +69,7 @@
                 <form id="comment-form">
                     <h2>Leave A Comment</h2>
                     <div class="comment-full">
-                        <label for="comment-text">Comment</label>
+                        <label for="comment-text">Comment: *</label>
                         <textarea id="comment-text" name="comment-text"></textarea>
                     </div>
                     <table class="comment-full">
@@ -88,10 +88,9 @@
                             <label for="comment-website">Website:</label>
                             <input type="text" id="comment-website" name="comment-website">
                     </div>
-        
-                    <label for="comment-save-details"><input type="checkbox" id="comment-save-details" name="comment-save-details"> Save my name, email and website in this browser for the next time I comment.</label>
-        
+                
                     <input type="submit" class="comment-button" value="Post Comment">
+                    <span id="validation-error"></span>
                 </form>
             </div>
     </div>

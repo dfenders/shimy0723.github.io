@@ -2,10 +2,11 @@ body
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    margin-bottom: 50px;
 }
 #header
 {
-    
+    background-color: white;
 }
 #background
 {
@@ -221,6 +222,20 @@ a.price-check:hover{
     margin: 0 auto;
     padding: 20px;
 }
+.comment{
+    border-top: 1px solid #cccccc;
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+}
+.comment h3{
+    margin: 0;
+}
+.comment .date{
+    font-size: 0.75em;
+}
+.comment .comment-text{
+    margin: 20px 10px;
+}
 #comment-section h2{
     margin-top: 0;
 }
@@ -267,9 +282,36 @@ a.price-check:hover{
     font-weight: bold;
     font-size: 1em;
     background-color: white;
+    display: inline-block;
+}
+#validation-error{
+    display: inline-block;
+    color: #c61f26;
+    padding: 7px 18px;
 }
 #comment-form .comment-button:hover,
 #contact-form .contact-button:hover{
     background-color: #c61f26;
     color: white;
+}
+body.homepage{
+    background-image: url("images/background/2.jpg");
+    background-size: 100%;
+    background-color: #1d1f21;
+    background-repeat: no-repeat;
+    background-position: 0 130px;
+}
+#homepage{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+#homepage h1{
+    font-size: 100px;
+    margin: 0;
+    text-shadow: 3px 3px 6px black;
+}
+#homepage h3{
+    text-shadow: 1px 1px 3px black;
+    font-size: 25px;
 }

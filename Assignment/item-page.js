@@ -15,19 +15,54 @@ function setupPage(){
 
 document.addEventListener("DOMContentLoaded", setupPage);
 
+// From: https://emailregex.com/
+var email_validate = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/;
+
 function postComment(e){
-    var placeholder = document.getElementById("placeholder-comment");
-    placeholder.style.display = "none";
-    
-    // Add comment
-    var comment_name = document.getElementById("comment-name");
-    var comment_text = document.getElementById("comment-text");
-
-    addNewComment(comment_name.value, comment_text.value);
-
     // Prevent form from refreshing page
     e.preventDefault();
     e.returnValue = false;
+
+    var comment_name = document.getElementById("comment-name");
+    var comment_text = document.getElementById("comment-text");
+    var comment_email = document.getElementById("comment-email");
+    var comment_website = document.getElementById("comment-website");
+
+    var validation_error = document.getElementById("validation-error");
+
+    // Clear any previous validation errors from the screen
+    validation_error.textContent = "";
+
+    // Validate name and email address
+    if(comment_text.value.trim() == ""){
+        validation_error.textContent = "Please enter some text to post as your comment.";
+        comment_text.focus();
+        return false;
+    }
+    if(comment_name.value.trim() == ""){
+        validation_error.textContent = "Please enter your name.";
+        comment_name.focus();
+        return false;
+    }
+    if(!email_validate.test(comment_email.value)){
+        validation_error.textContent = "Please enter a valid email address.";
+        comment_email.focus();
+        return false;
+    }
+
+    // Hide placeholder comment since we are adding a comment
+    var placeholder = document.getElementById("placeholder-comment");
+    placeholder.style.display = "none";
+
+    // Add the new comment to the comments section
+    addNewComment(comment_name.value, comment_text.value);
+
+    // Clear the form
+    comment_name.value = "";
+    comment_text.value = "";
+    comment_email.value = "";
+    comment_website.value = "";
+
     return false;
 }
 
